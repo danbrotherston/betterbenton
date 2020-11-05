@@ -443,6 +443,7 @@ section {
 }
 
 .section-bg {
+  margin-top:60px;
   background-color: #f7f8f9;
 }
 
@@ -605,11 +606,10 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
   text-align: center;
-  border-bottom: 3px solid #fff;
 }
 
-.services .icon-box:hover {
-  transform: translateY(-5px);
+.services .icon-box .feature-img-container {
+  margin: 10px -30px -30px -30px;
 }
 
 .services .icon i {
